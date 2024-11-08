@@ -6,4 +6,4 @@ COPY . /app
 
 RUN javac RationalMain.java
 
-CMD ["java", "Main"]
+CMD ["java", "RationalMain"]
