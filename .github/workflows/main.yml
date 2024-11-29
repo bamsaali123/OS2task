@@ -1,1 +1,21 @@
+on:
+  push:
+    branches:
+      - main
 
+
+
+
+
+jops:
+  build:
+    run-on: ubuntu-latest
+
+    steps:
+      - name: 'testing Githup action'
+        run: pwd
+
+      - name: 'Testing Printing'
+        run: echo Basma
+
+        
