@@ -12,11 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing Githup action'
-        run: pwd
+      - name: 'Printing folder content'
+        run: ls
 
-      - name: 'Testing Printing'
-        run: echo Basma
+      
 
 
         
