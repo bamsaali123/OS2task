@@ -7,9 +7,9 @@ on:
 
 
 
-jops:
+jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: 'testing Githup action'
@@ -17,5 +17,6 @@ jops:
 
       - name: 'Testing Printing'
         run: echo Basma
+
 
         
